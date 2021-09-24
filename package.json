@@ -1,0 +1,11 @@
+{
+  "name": "hello_world_javascript_action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0",
+    "install": "^0.13.0"
+  }
+}

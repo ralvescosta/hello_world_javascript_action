@@ -1,0 +1,25 @@
+name: Insider Plugin
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+jobs:
+  insider:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Run Insider
+        uses: insidersec/insider-action@v0
+        with:
+            technology: javascript
+            target: .
+            security: 100
+            noHtml: true
