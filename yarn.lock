@@ -110,6 +110,11 @@
   dependencies:
     "@octokit/openapi-types" "^10.5.0"
 
+"@vercel/ncc@^0.31.1":
+  version "0.31.1"
+  resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.31.1.tgz#9346c7e59326f5eeac75c0286e47df94c2d6d8f7"
+  integrity sha512-g0FAxwdViI6UzsiVz5HssIHqjcPa1EHL6h+2dcJD893SoCJaGdqqgUF09xnMW6goWnnhbLvgiKlgJWrJa+7qYA==
+
 before-after-hook@^2.2.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.2.tgz#a6e8ca41028d90ee2c24222f201c90956091613e"
@@ -119,11 +124,6 @@ deprecation@^2.0.0, deprecation@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.3.1.tgz#6368cbdb40abf3373b525ac87e4a260c3a700919"
   integrity sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==
-
-install@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/install/-/install-0.13.0.tgz#6af6e9da9dd0987de2ab420f78e60d9c17260776"
-  integrity sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==
 
 is-plain-object@^5.0.0:
   version "5.0.0"
