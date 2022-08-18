@@ -7,7 +7,7 @@
     "build": "yarn ncc build src/main.js --license licenses.txt"
   },
   "dependencies": {
-    "@actions/core": "^1.5.0",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0"
   },
   "devDependencies": {
